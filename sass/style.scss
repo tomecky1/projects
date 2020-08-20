@@ -1,5 +1,16 @@
+$text-main: 'Lato', sans-serif;
+$text-header: 'Raleway', sans-serif;
 .carousel-inner .carousel-item {
     height: 100vh;
+}
+body p {
+    font-family: $text-main;
+}
+h1,
+h2,
+h3,
+h4 {
+    font-family: $text-header;
 }
 .carousel-item img {
     object-fit: cover;
@@ -10,8 +21,11 @@
     height: 300px;
     object-fit: cover;
 }
-.contact, .footer {
+.contact {
     background: #eff2f5;
+}
+.footer {
+    background: #c7ecee;
 }
 .contact .card {
     height: 300px;
